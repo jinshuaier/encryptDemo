@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		746B59521F9F56E700D3DBF6 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 746B59501F9F56E700D3DBF6 /* GTMBase64.m */; };
+		746B595E1F9F6F8900D3DBF6 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 746B595A1F9F6F8900D3DBF6 /* NSData+AES.m */; };
+		746CC3CC1FA00AAC00AD06D6 /* PGGCryptoSha1.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3CB1FA00AAC00AD06D6 /* PGGCryptoSha1.m */; };
+		746CC3D01FA00F1800AD06D6 /* PGGCryptoHMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3CF1FA00F1800AD06D6 /* PGGCryptoHMAC.m */; };
+		746CC3D41FA0106100AD06D6 /* PGGCryptoHMACMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3D31FA0106100AD06D6 /* PGGCryptoHMACMD5.m */; };
+		746CC3FA1FA0199400AD06D6 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3D81FA0199200AD06D6 /* IQNSArray+Sort.m */; };
+		746CC3FB1FA0199400AD06D6 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3DA1FA0199200AD06D6 /* IQUIScrollView+Additions.m */; };
+		746CC3FC1FA0199400AD06D6 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3DC1FA0199200AD06D6 /* IQUITextFieldView+Additions.m */; };
+		746CC3FD1FA0199400AD06D6 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3DE1FA0199200AD06D6 /* IQUIView+Hierarchy.m */; };
+		746CC3FE1FA0199400AD06D6 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3E01FA0199200AD06D6 /* IQUIViewController+Additions.m */; };
+		746CC3FF1FA0199400AD06D6 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3E21FA0199200AD06D6 /* IQUIWindow+Hierarchy.m */; };
+		746CC4001FA0199400AD06D6 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3E71FA0199200AD06D6 /* IQKeyboardManager.m */; };
+		746CC4011FA0199400AD06D6 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3E91FA0199200AD06D6 /* IQKeyboardReturnKeyHandler.m */; };
+		746CC4021FA0199400AD06D6 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3EC1FA0199200AD06D6 /* IQTextView.m */; };
+		746CC4031FA0199400AD06D6 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3EF1FA0199200AD06D6 /* IQBarButtonItem.m */; };
+		746CC4041FA0199400AD06D6 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3F11FA0199200AD06D6 /* IQPreviousNextView.m */; };
+		746CC4051FA0199400AD06D6 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3F31FA0199200AD06D6 /* IQTitleBarButtonItem.m */; };
+		746CC4061FA0199400AD06D6 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3F51FA0199200AD06D6 /* IQToolbar.m */; };
+		746CC4071FA0199400AD06D6 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC3F71FA0199200AD06D6 /* IQUIView+IQKeyboardToolbar.m */; };
+		746CC4081FA0199400AD06D6 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 746CC3F91FA0199200AD06D6 /* IQKeyboardManager.bundle */; };
+		746CC40C1FA01BF200AD06D6 /* DetailedPublicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CC40A1FA01BF200AD06D6 /* DetailedPublicViewController.m */; };
+		746CC40D1FA01BF200AD06D6 /* DetailedPublicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 746CC40B1FA01BF200AD06D6 /* DetailedPublicViewController.xib */; };
+		74F1B3BD1F9EBBD600307E97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F1B3BC1F9EBBD600307E97 /* AppDelegate.m */; };
+		74F1B3C01F9EBBD600307E97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F1B3BF1F9EBBD600307E97 /* ViewController.m */; };
+		74F1B3C31F9EBBD600307E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F1B3C11F9EBBD600307E97 /* Main.storyboard */; };
+		74F1B3C51F9EBBD600307E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F1B3C41F9EBBD600307E97 /* Assets.xcassets */; };
+		74F1B3C81F9EBBD600307E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F1B3C61F9EBBD600307E97 /* LaunchScreen.storyboard */; };
+		74F1B3CB1F9EBBD600307E97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F1B3CA1F9EBBD600307E97 /* main.m */; };
+		74F1B3D51F9EBBD600307E97 /* PGGCryptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F1B3D41F9EBBD600307E97 /* PGGCryptoTests.m */; };
+		74F1B3E01F9EBBD600307E97 /* PGGCryptoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F1B3DF1F9EBBD600307E97 /* PGGCryptoUITests.m */; };
+		74F1B3EF1F9EBCEE00307E97 /* PGGCryptoAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F1B3EE1F9EBCEE00307E97 /* PGGCryptoAES.m */; };
+		74F1B3F21F9EBD0500307E97 /* PGGCryptoMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F1B3F11F9EBD0500307E97 /* PGGCryptoMD5.m */; };
+		74F1B3F91F9F176C00307E97 /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 74F1B3F71F9F176C00307E97 /* private_key.p12 */; };
+		74F1B3FA1F9F176C00307E97 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 74F1B3F81F9F176C00307E97 /* public_key.der */; };
+		74F1B4031F9F194300307E97 /* PGGCryptoRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F1B4021F9F194300307E97 /* PGGCryptoRSA.m */; };
+		74F1B40A1F9F256B00307E97 /* PGGCryptoDES.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F1B4091F9F256B00307E97 /* PGGCryptoDES.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74F1B3D11F9EBBD600307E97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74F1B3B01F9EBBD500307E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74F1B3B71F9EBBD600307E97;
+			remoteInfo = PGGCrypto;
+		};
+		74F1B3DC1F9EBBD600307E97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74F1B3B01F9EBBD500307E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74F1B3B71F9EBBD600307E97;
+			remoteInfo = PGGCrypto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		746B594F1F9F56E700D3DBF6 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		746B59501F9F56E700D3DBF6 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		746B59511F9F56E700D3DBF6 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		746B595A1F9F6F8900D3DBF6 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		746B595C1F9F6F8900D3DBF6 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		746CC3CA1FA00AAC00AD06D6 /* PGGCryptoSha1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGCryptoSha1.h; sourceTree = "<group>"; };
+		746CC3CB1FA00AAC00AD06D6 /* PGGCryptoSha1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoSha1.m; sourceTree = "<group>"; };
+		746CC3CE1FA00F1800AD06D6 /* PGGCryptoHMAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGCryptoHMAC.h; sourceTree = "<group>"; };
+		746CC3CF1FA00F1800AD06D6 /* PGGCryptoHMAC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoHMAC.m; sourceTree = "<group>"; };
+		746CC3D21FA0106100AD06D6 /* PGGCryptoHMACMD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGCryptoHMACMD5.h; sourceTree = "<group>"; };
+		746CC3D31FA0106100AD06D6 /* PGGCryptoHMACMD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoHMACMD5.m; sourceTree = "<group>"; };
+		746CC3D71FA0199200AD06D6 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		746CC3D81FA0199200AD06D6 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		746CC3D91FA0199200AD06D6 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		746CC3DA1FA0199200AD06D6 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		746CC3DB1FA0199200AD06D6 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		746CC3DC1FA0199200AD06D6 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		746CC3DD1FA0199200AD06D6 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		746CC3DE1FA0199200AD06D6 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		746CC3DF1FA0199200AD06D6 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		746CC3E01FA0199200AD06D6 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		746CC3E11FA0199200AD06D6 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		746CC3E21FA0199200AD06D6 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		746CC3E41FA0199200AD06D6 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		746CC3E51FA0199200AD06D6 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		746CC3E61FA0199200AD06D6 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		746CC3E71FA0199200AD06D6 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		746CC3E81FA0199200AD06D6 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		746CC3E91FA0199200AD06D6 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		746CC3EB1FA0199200AD06D6 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		746CC3EC1FA0199200AD06D6 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		746CC3EE1FA0199200AD06D6 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		746CC3EF1FA0199200AD06D6 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		746CC3F01FA0199200AD06D6 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		746CC3F11FA0199200AD06D6 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		746CC3F21FA0199200AD06D6 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		746CC3F31FA0199200AD06D6 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		746CC3F41FA0199200AD06D6 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		746CC3F51FA0199200AD06D6 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		746CC3F61FA0199200AD06D6 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		746CC3F71FA0199200AD06D6 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		746CC3F91FA0199200AD06D6 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		746CC4091FA01BF200AD06D6 /* DetailedPublicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailedPublicViewController.h; sourceTree = "<group>"; };
+		746CC40A1FA01BF200AD06D6 /* DetailedPublicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailedPublicViewController.m; sourceTree = "<group>"; };
+		746CC40B1FA01BF200AD06D6 /* DetailedPublicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailedPublicViewController.xib; sourceTree = "<group>"; };
+		746CC40E1FA0266C00AD06D6 /* PGG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGG.h; sourceTree = "<group>"; };
+		746CC4101FA0281400AD06D6 /* public.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = public.pch; sourceTree = "<group>"; };
+		74F1B3B81F9EBBD600307E97 /* PGGCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGGCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F1B3BB1F9EBBD600307E97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74F1B3BC1F9EBBD600307E97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74F1B3BE1F9EBBD600307E97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74F1B3BF1F9EBBD600307E97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74F1B3C21F9EBBD600307E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74F1B3C41F9EBBD600307E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74F1B3C71F9EBBD600307E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74F1B3C91F9EBBD600307E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F1B3CA1F9EBBD600307E97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74F1B3D01F9EBBD600307E97 /* PGGCryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PGGCryptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F1B3D41F9EBBD600307E97 /* PGGCryptoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoTests.m; sourceTree = "<group>"; };
+		74F1B3D61F9EBBD600307E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F1B3DB1F9EBBD600307E97 /* PGGCryptoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PGGCryptoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F1B3DF1F9EBBD600307E97 /* PGGCryptoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoUITests.m; sourceTree = "<group>"; };
+		74F1B3E11F9EBBD600307E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F1B3ED1F9EBCEE00307E97 /* PGGCryptoAES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGCryptoAES.h; sourceTree = "<group>"; };
+		74F1B3EE1F9EBCEE00307E97 /* PGGCryptoAES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoAES.m; sourceTree = "<group>"; };
+		74F1B3F01F9EBD0500307E97 /* PGGCryptoMD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGCryptoMD5.h; sourceTree = "<group>"; };
+		74F1B3F11F9EBD0500307E97 /* PGGCryptoMD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoMD5.m; sourceTree = "<group>"; };
+		74F1B3F71F9F176C00307E97 /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		74F1B3F81F9F176C00307E97 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		74F1B3FC1F9F17B300307E97 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		74F1B4011F9F194300307E97 /* PGGCryptoRSA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGCryptoRSA.h; sourceTree = "<group>"; };
+		74F1B4021F9F194300307E97 /* PGGCryptoRSA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoRSA.m; sourceTree = "<group>"; };
+		74F1B4081F9F256B00307E97 /* PGGCryptoDES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGCryptoDES.h; sourceTree = "<group>"; };
+		74F1B4091F9F256B00307E97 /* PGGCryptoDES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCryptoDES.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74F1B3B51F9EBBD600307E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F1B3CD1F9EBBD600307E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F1B3D81F9EBBD600307E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		746B594E1F9F56E700D3DBF6 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				746B594F1F9F56E700D3DBF6 /* GTMBase64.h */,
+				746B59501F9F56E700D3DBF6 /* GTMBase64.m */,
+				746B59511F9F56E700D3DBF6 /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		746CC3C91FA00A6000AD06D6 /* PGGSha1 */ = {
+			isa = PBXGroup;
+			children = (
+				746CC3CA1FA00AAC00AD06D6 /* PGGCryptoSha1.h */,
+				746CC3CB1FA00AAC00AD06D6 /* PGGCryptoSha1.m */,
+			);
+			path = PGGSha1;
+			sourceTree = "<group>";
+		};
+		746CC3CD1FA00EF100AD06D6 /* PGGHMAC */ = {
+			isa = PBXGroup;
+			children = (
+				746CC3CE1FA00F1800AD06D6 /* PGGCryptoHMAC.h */,
+				746CC3CF1FA00F1800AD06D6 /* PGGCryptoHMAC.m */,
+			);
+			path = PGGHMAC;
+			sourceTree = "<group>";
+		};
+		746CC3D11FA00FAB00AD06D6 /* PGGHMAC_MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				746CC3D21FA0106100AD06D6 /* PGGCryptoHMACMD5.h */,
+				746CC3D31FA0106100AD06D6 /* PGGCryptoHMACMD5.m */,
+			);
+			path = PGGHMAC_MD5;
+			sourceTree = "<group>";
+		};
+		746CC3D51FA0199200AD06D6 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				746CC3D61FA0199200AD06D6 /* Categories */,
+				746CC3E31FA0199200AD06D6 /* Constants */,
+				746CC3E61FA0199200AD06D6 /* IQKeyboardManager.h */,
+				746CC3E71FA0199200AD06D6 /* IQKeyboardManager.m */,
+				746CC3E81FA0199200AD06D6 /* IQKeyboardReturnKeyHandler.h */,
+				746CC3E91FA0199200AD06D6 /* IQKeyboardReturnKeyHandler.m */,
+				746CC3EA1FA0199200AD06D6 /* IQTextView */,
+				746CC3ED1FA0199200AD06D6 /* IQToolbar */,
+				746CC3F81FA0199200AD06D6 /* Resources */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		746CC3D61FA0199200AD06D6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				746CC3D71FA0199200AD06D6 /* IQNSArray+Sort.h */,
+				746CC3D81FA0199200AD06D6 /* IQNSArray+Sort.m */,
+				746CC3D91FA0199200AD06D6 /* IQUIScrollView+Additions.h */,
+				746CC3DA1FA0199200AD06D6 /* IQUIScrollView+Additions.m */,
+				746CC3DB1FA0199200AD06D6 /* IQUITextFieldView+Additions.h */,
+				746CC3DC1FA0199200AD06D6 /* IQUITextFieldView+Additions.m */,
+				746CC3DD1FA0199200AD06D6 /* IQUIView+Hierarchy.h */,
+				746CC3DE1FA0199200AD06D6 /* IQUIView+Hierarchy.m */,
+				746CC3DF1FA0199200AD06D6 /* IQUIViewController+Additions.h */,
+				746CC3E01FA0199200AD06D6 /* IQUIViewController+Additions.m */,
+				746CC3E11FA0199200AD06D6 /* IQUIWindow+Hierarchy.h */,
+				746CC3E21FA0199200AD06D6 /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		746CC3E31FA0199200AD06D6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				746CC3E41FA0199200AD06D6 /* IQKeyboardManagerConstants.h */,
+				746CC3E51FA0199200AD06D6 /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		746CC3EA1FA0199200AD06D6 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				746CC3EB1FA0199200AD06D6 /* IQTextView.h */,
+				746CC3EC1FA0199200AD06D6 /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		746CC3ED1FA0199200AD06D6 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				746CC3EE1FA0199200AD06D6 /* IQBarButtonItem.h */,
+				746CC3EF1FA0199200AD06D6 /* IQBarButtonItem.m */,
+				746CC3F01FA0199200AD06D6 /* IQPreviousNextView.h */,
+				746CC3F11FA0199200AD06D6 /* IQPreviousNextView.m */,
+				746CC3F21FA0199200AD06D6 /* IQTitleBarButtonItem.h */,
+				746CC3F31FA0199200AD06D6 /* IQTitleBarButtonItem.m */,
+				746CC3F41FA0199200AD06D6 /* IQToolbar.h */,
+				746CC3F51FA0199200AD06D6 /* IQToolbar.m */,
+				746CC3F61FA0199200AD06D6 /* IQUIView+IQKeyboardToolbar.h */,
+				746CC3F71FA0199200AD06D6 /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		746CC3F81FA0199200AD06D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				746CC3F91FA0199200AD06D6 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		74F1B3AF1F9EBBD500307E97 = {
+			isa = PBXGroup;
+			children = (
+				74F1B3BA1F9EBBD600307E97 /* PGGCrypto */,
+				74F1B3D31F9EBBD600307E97 /* PGGCryptoTests */,
+				74F1B3DE1F9EBBD600307E97 /* PGGCryptoUITests */,
+				74F1B3B91F9EBBD600307E97 /* Products */,
+				74F1B3FB1F9F17B200307E97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74F1B3B91F9EBBD600307E97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F1B3B81F9EBBD600307E97 /* PGGCrypto.app */,
+				74F1B3D01F9EBBD600307E97 /* PGGCryptoTests.xctest */,
+				74F1B3DB1F9EBBD600307E97 /* PGGCryptoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74F1B3BA1F9EBBD600307E97 /* PGGCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				746CC3D51FA0199200AD06D6 /* IQKeyboardManager */,
+				74F1B4001F9F187F00307E97 /* ExhibitionController */,
+				74F1B3FF1F9F186400307E97 /* Delegate */,
+				74F1B3F61F9F105100307E97 /* PGGRSA */,
+				74F1B3F51F9F103500307E97 /* PGGDES */,
+				74F1B3F41F9F102500307E97 /* PGGAES */,
+				74F1B3F31F9F100C00307E97 /* PGGMD5 */,
+				746CC3C91FA00A6000AD06D6 /* PGGSha1 */,
+				746CC3CD1FA00EF100AD06D6 /* PGGHMAC */,
+				746CC3D11FA00FAB00AD06D6 /* PGGHMAC_MD5 */,
+				74F1B3FE1F9F17F500307E97 /* Resources */,
+			);
+			path = PGGCrypto;
+			sourceTree = "<group>";
+		};
+		74F1B3D31F9EBBD600307E97 /* PGGCryptoTests */ = {
+			isa = PBXGroup;
+			children = (
+				74F1B3D41F9EBBD600307E97 /* PGGCryptoTests.m */,
+				74F1B3D61F9EBBD600307E97 /* Info.plist */,
+			);
+			path = PGGCryptoTests;
+			sourceTree = "<group>";
+		};
+		74F1B3DE1F9EBBD600307E97 /* PGGCryptoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74F1B3DF1F9EBBD600307E97 /* PGGCryptoUITests.m */,
+				74F1B3E11F9EBBD600307E97 /* Info.plist */,
+			);
+			path = PGGCryptoUITests;
+			sourceTree = "<group>";
+		};
+		74F1B3F31F9F100C00307E97 /* PGGMD5 */ = {
+			isa = PBXGroup;
+			children = (
+				74F1B3F01F9EBD0500307E97 /* PGGCryptoMD5.h */,
+				74F1B3F11F9EBD0500307E97 /* PGGCryptoMD5.m */,
+			);
+			path = PGGMD5;
+			sourceTree = "<group>";
+		};
+		74F1B3F41F9F102500307E97 /* PGGAES */ = {
+			isa = PBXGroup;
+			children = (
+				746B594E1F9F56E700D3DBF6 /* GTMBase64 */,
+				74F1B3ED1F9EBCEE00307E97 /* PGGCryptoAES.h */,
+				74F1B3EE1F9EBCEE00307E97 /* PGGCryptoAES.m */,
+				746B595C1F9F6F8900D3DBF6 /* NSData+AES.h */,
+				746B595A1F9F6F8900D3DBF6 /* NSData+AES.m */,
+			);
+			path = PGGAES;
+			sourceTree = "<group>";
+		};
+		74F1B3F51F9F103500307E97 /* PGGDES */ = {
+			isa = PBXGroup;
+			children = (
+				74F1B4081F9F256B00307E97 /* PGGCryptoDES.h */,
+				74F1B4091F9F256B00307E97 /* PGGCryptoDES.m */,
+			);
+			path = PGGDES;
+			sourceTree = "<group>";
+		};
+		74F1B3F61F9F105100307E97 /* PGGRSA */ = {
+			isa = PBXGroup;
+			children = (
+				74F1B4011F9F194300307E97 /* PGGCryptoRSA.h */,
+				74F1B4021F9F194300307E97 /* PGGCryptoRSA.m */,
+			);
+			path = PGGRSA;
+			sourceTree = "<group>";
+		};
+		74F1B3FB1F9F17B200307E97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74F1B3FC1F9F17B300307E97 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74F1B3FE1F9F17F500307E97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74F1B3C91F9EBBD600307E97 /* Info.plist */,
+				74F1B3F71F9F176C00307E97 /* private_key.p12 */,
+				74F1B3F81F9F176C00307E97 /* public_key.der */,
+				74F1B3C11F9EBBD600307E97 /* Main.storyboard */,
+				74F1B3C41F9EBBD600307E97 /* Assets.xcassets */,
+				74F1B3C61F9EBBD600307E97 /* LaunchScreen.storyboard */,
+				74F1B3CA1F9EBBD600307E97 /* main.m */,
+				746CC40E1FA0266C00AD06D6 /* PGG.h */,
+				746CC4101FA0281400AD06D6 /* public.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		74F1B3FF1F9F186400307E97 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				74F1B3BB1F9EBBD600307E97 /* AppDelegate.h */,
+				74F1B3BC1F9EBBD600307E97 /* AppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		74F1B4001F9F187F00307E97 /* ExhibitionController */ = {
+			isa = PBXGroup;
+			children = (
+				74F1B3BE1F9EBBD600307E97 /* ViewController.h */,
+				74F1B3BF1F9EBBD600307E97 /* ViewController.m */,
+				746CC4091FA01BF200AD06D6 /* DetailedPublicViewController.h */,
+				746CC40A1FA01BF200AD06D6 /* DetailedPublicViewController.m */,
+				746CC40B1FA01BF200AD06D6 /* DetailedPublicViewController.xib */,
+			);
+			path = ExhibitionController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F1B3B71F9EBBD600307E97 /* PGGCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F1B3E41F9EBBD600307E97 /* Build configuration list for PBXNativeTarget "PGGCrypto" */;
+			buildPhases = (
+				74F1B3B41F9EBBD600307E97 /* Sources */,
+				74F1B3B51F9EBBD600307E97 /* Frameworks */,
+				74F1B3B61F9EBBD600307E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PGGCrypto;
+			productName = PGGCrypto;
+			productReference = 74F1B3B81F9EBBD600307E97 /* PGGCrypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74F1B3CF1F9EBBD600307E97 /* PGGCryptoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F1B3E71F9EBBD600307E97 /* Build configuration list for PBXNativeTarget "PGGCryptoTests" */;
+			buildPhases = (
+				74F1B3CC1F9EBBD600307E97 /* Sources */,
+				74F1B3CD1F9EBBD600307E97 /* Frameworks */,
+				74F1B3CE1F9EBBD600307E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74F1B3D21F9EBBD600307E97 /* PBXTargetDependency */,
+			);
+			name = PGGCryptoTests;
+			productName = PGGCryptoTests;
+			productReference = 74F1B3D01F9EBBD600307E97 /* PGGCryptoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74F1B3DA1F9EBBD600307E97 /* PGGCryptoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F1B3EA1F9EBBD600307E97 /* Build configuration list for PBXNativeTarget "PGGCryptoUITests" */;
+			buildPhases = (
+				74F1B3D71F9EBBD600307E97 /* Sources */,
+				74F1B3D81F9EBBD600307E97 /* Frameworks */,
+				74F1B3D91F9EBBD600307E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74F1B3DD1F9EBBD600307E97 /* PBXTargetDependency */,
+			);
+			name = PGGCryptoUITests;
+			productName = PGGCryptoUITests;
+			productReference = 74F1B3DB1F9EBBD600307E97 /* PGGCryptoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74F1B3B01F9EBBD500307E97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = penggege.CP;
+				TargetAttributes = {
+					74F1B3B71F9EBBD600307E97 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					74F1B3CF1F9EBBD600307E97 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74F1B3B71F9EBBD600307E97;
+					};
+					74F1B3DA1F9EBBD600307E97 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74F1B3B71F9EBBD600307E97;
+					};
+				};
+			};
+			buildConfigurationList = 74F1B3B31F9EBBD500307E97 /* Build configuration list for PBXProject "PGGCrypto" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74F1B3AF1F9EBBD500307E97;
+			productRefGroup = 74F1B3B91F9EBBD600307E97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F1B3B71F9EBBD600307E97 /* PGGCrypto */,
+				74F1B3CF1F9EBBD600307E97 /* PGGCryptoTests */,
+				74F1B3DA1F9EBBD600307E97 /* PGGCryptoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74F1B3B61F9EBBD600307E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F1B3C81F9EBBD600307E97 /* LaunchScreen.storyboard in Resources */,
+				74F1B3C51F9EBBD600307E97 /* Assets.xcassets in Resources */,
+				746CC40D1FA01BF200AD06D6 /* DetailedPublicViewController.xib in Resources */,
+				746CC4081FA0199400AD06D6 /* IQKeyboardManager.bundle in Resources */,
+				74F1B3C31F9EBBD600307E97 /* Main.storyboard in Resources */,
+				74F1B3F91F9F176C00307E97 /* private_key.p12 in Resources */,
+				74F1B3FA1F9F176C00307E97 /* public_key.der in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F1B3CE1F9EBBD600307E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F1B3D91F9EBBD600307E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F1B3B41F9EBBD600307E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746B595E1F9F6F8900D3DBF6 /* NSData+AES.m in Sources */,
+				746CC4001FA0199400AD06D6 /* IQKeyboardManager.m in Sources */,
+				746CC40C1FA01BF200AD06D6 /* DetailedPublicViewController.m in Sources */,
+				746CC4031FA0199400AD06D6 /* IQBarButtonItem.m in Sources */,
+				74F1B4031F9F194300307E97 /* PGGCryptoRSA.m in Sources */,
+				74F1B3C01F9EBBD600307E97 /* ViewController.m in Sources */,
+				746CC3FF1FA0199400AD06D6 /* IQUIWindow+Hierarchy.m in Sources */,
+				746CC4011FA0199400AD06D6 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				746CC4041FA0199400AD06D6 /* IQPreviousNextView.m in Sources */,
+				746CC3FA1FA0199400AD06D6 /* IQNSArray+Sort.m in Sources */,
+				746CC3D01FA00F1800AD06D6 /* PGGCryptoHMAC.m in Sources */,
+				746CC4061FA0199400AD06D6 /* IQToolbar.m in Sources */,
+				746CC4071FA0199400AD06D6 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				74F1B3EF1F9EBCEE00307E97 /* PGGCryptoAES.m in Sources */,
+				746B59521F9F56E700D3DBF6 /* GTMBase64.m in Sources */,
+				74F1B40A1F9F256B00307E97 /* PGGCryptoDES.m in Sources */,
+				746CC4051FA0199400AD06D6 /* IQTitleBarButtonItem.m in Sources */,
+				746CC3CC1FA00AAC00AD06D6 /* PGGCryptoSha1.m in Sources */,
+				746CC3FC1FA0199400AD06D6 /* IQUITextFieldView+Additions.m in Sources */,
+				746CC4021FA0199400AD06D6 /* IQTextView.m in Sources */,
+				746CC3FB1FA0199400AD06D6 /* IQUIScrollView+Additions.m in Sources */,
+				74F1B3CB1F9EBBD600307E97 /* main.m in Sources */,
+				746CC3FE1FA0199400AD06D6 /* IQUIViewController+Additions.m in Sources */,
+				746CC3FD1FA0199400AD06D6 /* IQUIView+Hierarchy.m in Sources */,
+				74F1B3BD1F9EBBD600307E97 /* AppDelegate.m in Sources */,
+				74F1B3F21F9EBD0500307E97 /* PGGCryptoMD5.m in Sources */,
+				746CC3D41FA0106100AD06D6 /* PGGCryptoHMACMD5.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F1B3CC1F9EBBD600307E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F1B3D51F9EBBD600307E97 /* PGGCryptoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F1B3D71F9EBBD600307E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F1B3E01F9EBBD600307E97 /* PGGCryptoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74F1B3D21F9EBBD600307E97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74F1B3B71F9EBBD600307E97 /* PGGCrypto */;
+			targetProxy = 74F1B3D11F9EBBD600307E97 /* PBXContainerItemProxy */;
+		};
+		74F1B3DD1F9EBBD600307E97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74F1B3B71F9EBBD600307E97 /* PGGCrypto */;
+			targetProxy = 74F1B3DC1F9EBBD600307E97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74F1B3C11F9EBBD600307E97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F1B3C21F9EBBD600307E97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74F1B3C61F9EBBD600307E97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F1B3C71F9EBBD600307E97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74F1B3E21F9EBBD600307E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74F1B3E31F9EBBD600307E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74F1B3E51F9EBBD600307E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5K6RS22WJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PGGCrypto/Resources/public.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/PGGCrypto/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penggege.PGGCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74F1B3E61F9EBBD600307E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5K6RS22WJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PGGCrypto/Resources/public.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/PGGCrypto/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penggege.PGGCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74F1B3E81F9EBBD600307E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MRVYXC2HHB;
+				INFOPLIST_FILE = PGGCryptoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penggege.PGGCryptoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PGGCrypto.app/PGGCrypto";
+			};
+			name = Debug;
+		};
+		74F1B3E91F9EBBD600307E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MRVYXC2HHB;
+				INFOPLIST_FILE = PGGCryptoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penggege.PGGCryptoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PGGCrypto.app/PGGCrypto";
+			};
+			name = Release;
+		};
+		74F1B3EB1F9EBBD600307E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MRVYXC2HHB;
+				INFOPLIST_FILE = PGGCryptoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penggege.PGGCryptoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PGGCrypto;
+			};
+			name = Debug;
+		};
+		74F1B3EC1F9EBBD600307E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MRVYXC2HHB;
+				INFOPLIST_FILE = PGGCryptoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penggege.PGGCryptoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PGGCrypto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74F1B3B31F9EBBD500307E97 /* Build configuration list for PBXProject "PGGCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F1B3E21F9EBBD600307E97 /* Debug */,
+				74F1B3E31F9EBBD600307E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F1B3E41F9EBBD600307E97 /* Build configuration list for PBXNativeTarget "PGGCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F1B3E51F9EBBD600307E97 /* Debug */,
+				74F1B3E61F9EBBD600307E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F1B3E71F9EBBD600307E97 /* Build configuration list for PBXNativeTarget "PGGCryptoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F1B3E81F9EBBD600307E97 /* Debug */,
+				74F1B3E91F9EBBD600307E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F1B3EA1F9EBBD600307E97 /* Build configuration list for PBXNativeTarget "PGGCryptoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F1B3EB1F9EBBD600307E97 /* Debug */,
+				74F1B3EC1F9EBBD600307E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74F1B3B01F9EBBD500307E97 /* Project object */;
+}
